@@ -1,0 +1,17 @@
+let name = "Alina";
+birthYear = 2006;
+isStudent = true;
+alert("Этот код выполнен из внешнего файла!");
+console.log(name, birthYear, isStudent);
+let score = prompt("Введите ваш балл:");
+if (score >= 90) {
+ console.log("Отлично!");
+} else if (score >= 70) {
+ console.log("Хорошо");
+} else {
+ console.log("Можно лучше!");
+}
+
+for (let i = 1; i <= 5; i++) {
+ console.log(`Итерация: ${i}`);
+}
